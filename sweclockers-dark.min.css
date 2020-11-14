@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.319.441
+@version		20.319.445
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -155,8 +155,8 @@ fieldset .tanukiButton.isDisabled:hover {
   cursor: not-allowed !important;
 }
 .bg-orange {
+  background-color: #c07b45 !important;
   color: #fff !important;
-  background-color: #f19a57 !important;
   text-shadow: 1px 1px 2px #000 !important;
 }
 .bg-orange:not(.no-hover):hover {
@@ -206,17 +206,33 @@ fieldset .tanukiButton.isDisabled:hover {
 .bg-blue {
   background-color: #305d84 !important;
 }
+.bg-blue.list-classified-button,
+.bg-blue.compact {
+  text-shadow: 1px 1px 2px #000;
+}
 .bg-blue-secondary {
   background-color: #264a6a !important;
 }
 .bg-green {
   background-color: #1c5a00 !important;
 }
+.bg-green.list-classified-button,
+.bg-green.compact {
+  text-shadow: 1px 1px 2px #000;
+}
 .bg-pink {
   background-color: #b34d84 !important;
 }
+.bg-pink.list-classified-button,
+.bg-pink.compact {
+  text-shadow: 1px 1px 2px #000;
+}
 .bg-beige {
   background-color: #9c6500 !important;
+}
+.bg-beige.list-classified-button,
+.bg-beige.compact {
+  text-shadow: 1px 1px 2px #000;
 }
 .bg-white {
   background-color: transparent !important;
@@ -424,7 +440,7 @@ fieldset .tanukiButton.isDisabled:hover {
   color: #aaa;
 }
 .bbcode .bbPoll .inner .pollBody .pollOptions .optionBar > div {
-  background-color: #f19a57;
+  background-color: #c07b45;
 }
 .bbcode .bbPoll .inner .pollBody .pollSums .pollControls button {
   background-color: #242426;
@@ -907,12 +923,12 @@ fieldset .tanukiButton.isDisabled:hover {
   cursor: not-allowed !important;
 }
 #content > .container > .columns .comments-bubble .cb-top {
-  background-color: #d88a4e !important;
+  background-color: #c07b45 !important;
   color: #fff !important;
   text-shadow: 1px 1px 2px #000 !important;
 }
 #content > .container > .columns .comments-bubble .cb-bottom {
-  border-color: transparent #d88a4e transparent transparent;
+  border-color: transparent #c07b45 transparent transparent;
 }
 #content > .container > .columns .sorter .is-current {
   color: #f19a57;
@@ -1063,7 +1079,7 @@ fieldset .tanukiButton.isDisabled:hover {
   color: #c8c8c8;
 }
 #content > .container > .columns .tipsportal .tips .col-wrapper .col-score:not(.is-desc) .label {
-  background-color: #f19a57;
+  background-color: #c07b45;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
 }
@@ -1268,7 +1284,27 @@ fieldset .tanukiButton.isDisabled:hover {
 #footer .bottom .copyright {
   color: #aaa;
 }
+#adblockBanner {
+  background-color: #1d1d1f;
+  border-bottom-color: #3b3b3b;
+}
+#adblockBanner .table .row .cell {
+  background-color: transparent;
+}
+#adblockBanner .table .row .cell .button {
+  background-color: #c07b45;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+#adblockBanner .table .row .cell .button:hover {
+  background-color: #2a2a2d;
+}
 #onetrust-consent-sdk #onetrust-banner-sdk {
+  box-shadow: 1px -1px 0px #3b3b3b;
+  -moz-box-shadow: 1px -1px 0px #3b3b3b;
+  -ms-box-shadow: 1px -1px 0px #3b3b3b;
+  -o-box-shadow: 1px -1px 0px #3b3b3b;
+  -webkit-box-shadow: 1px -1px 0px #3b3b3b;
   background-color: #1d1d1f !important;
 }
 #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
@@ -1282,7 +1318,9 @@ fieldset .tanukiButton.isDisabled:hover {
   text-decoration: none !important;
 }
 #onetrust-consent-sdk #onetrust-accept-btn-handler {
-  background-color: #f19a57 !important;
+  background-color: #c07b45 !important;
+  border-color: #c07b45 !important;
+  color: #fff !important;
   text-shadow: 1px 1px 2px #000 !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk {
@@ -1302,8 +1340,9 @@ fieldset .tanukiButton.isDisabled:hover {
   text-decoration: none !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content #accept-recommended-btn-handler {
-  background-color: #f19a57 !important;
-  border-color: #f19a57 !important;
+  background-color: #c07b45 !important;
+  border-color: #c07b45 !important;
+  color: #fff !important;
   text-shadow: 1px 1px 2px #000 !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-sdk-row #ot-category-title {
@@ -1336,10 +1375,10 @@ fieldset .tanukiButton.isDisabled:hover {
   -webkit-filter: invert(100%) !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header {
-  border-color: #3b3b3b !important;
+  border-color: transparent !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-footer {
-  border-color: #3b3b3b !important;
+  border-color: transparent !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-footer-logo {
   background-color: transparent !important;
@@ -1352,9 +1391,22 @@ fieldset .tanukiButton.isDisabled:hover {
   -webkit-filter: invert(85%) !important;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .save-preference-btn-handler {
-  background-color: #f19a57 !important;
-  border-color: #f19a57 !important;
+  background-color: #c07b45 !important;
+  border-color: #c07b45 !important;
+  color: #fff !important;
   text-shadow: 1px 1px 2px #000 !important;
+}
+#onetrust-consent-sdk #onetrust-pc-sdk.otPcCenter {
+  box-shadow: inset 0 0 0 1px #3b3b3b;
+  -moz-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -ms-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -o-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -webkit-box-shadow: inset 0 0 0 1px #3b3b3b;
+  border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
 }
 #onetrust-consent-sdk p {
   color: #aaa !important;
