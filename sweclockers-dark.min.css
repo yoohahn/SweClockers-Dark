@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.2145
+@version		20.320.2207
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -124,6 +124,20 @@ textarea[type=password].is-loading {
   -ms-filter: invert(85%);
   -o-filter: invert(85%);
   -webkit-filter: invert(85%);
+}
+input[type=checkbox] {
+  filter: invert(70%) brightness(0.5);
+  -moz-filter: invert(70%) brightness(0.5);
+  -ms-filter: invert(70%) brightness(0.5);
+  -o-filter: invert(70%) brightness(0.5);
+  -webkit-filter: invert(70%) brightness(0.5);
+}
+input[type=checkbox]:checked {
+  filter: invert(100%) brightness(0.5);
+  -moz-filter: invert(100%) brightness(0.5);
+  -ms-filter: invert(100%) brightness(0.5);
+  -o-filter: invert(100%) brightness(0.5);
+  -webkit-filter: invert(100%) brightness(0.5);
 }
 .hasErrors select,
 .hasErrors input,
