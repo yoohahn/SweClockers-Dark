@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.2213
+@version		20.320.2235
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -133,11 +133,11 @@ input[type=checkbox] {
   -webkit-filter: invert(70%) brightness(0.5);
 }
 input[type=checkbox]:checked {
-  filter: invert(100%) brightness(0.5);
-  -moz-filter: invert(100%) brightness(0.5);
-  -ms-filter: invert(100%) brightness(0.5);
-  -o-filter: invert(100%) brightness(0.5);
-  -webkit-filter: invert(100%) brightness(0.5);
+  filter: invert(100%) brightness(0.9);
+  -moz-filter: invert(100%) brightness(0.9);
+  -ms-filter: invert(100%) brightness(0.9);
+  -o-filter: invert(100%) brightness(0.9);
+  -webkit-filter: invert(100%) brightness(0.9);
 }
 .hasErrors select,
 .hasErrors input,
@@ -1242,6 +1242,9 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns #threadList-1 table .head .cell:last-child {
   border-top-right-radius: 0.6rem;
+}
+#content > .container > .columns #threadList-1 table .body .row.isSelected .cell {
+  background-color: #2a2a2d !important;
 }
 #content > .container > .columns #threadList-1 table .body .cell {
   background-color: #1d1d1f;

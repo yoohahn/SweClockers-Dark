@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.2213
+@version		20.320.2235
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -232,9 +232,9 @@
 
 	input
 		&[type=checkbox]
-			filter invert(70%) brightness(0.50)
+			filter invert(70%) brightness(0.5)
 			&:checked
-				filter invert(100%) brightness(0.5)
+				filter invert(100%) brightness(0.9)
 
 	.hasErrors
 		select,
@@ -1071,6 +1071,10 @@
 								&:last-child
 									border-top-right-radius var-border-radius
 						.body
+							.row
+								&.isSelected
+									.cell
+										background-color var-highlight !important
 							.cell
 								background-color var-on-background-1
 								border-bottom var-border
