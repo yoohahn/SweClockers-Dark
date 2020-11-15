@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.1202
+@version		20.320.1924
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -765,6 +765,11 @@ fieldset .tanukiButton.isDisabled:hover {
   -ms-border-radius: 0.6rem;
   -o-border-radius: 0.6rem;
   -webkit-border-radius: 0.6rem;
+  box-shadow: 0 0 0 1px #101013;
+  -moz-box-shadow: 0 0 0 1px #101013;
+  -ms-box-shadow: 0 0 0 1px #101013;
+  -o-box-shadow: 0 0 0 1px #101013;
+  -webkit-box-shadow: 0 0 0 1px #101013;
 }
 #content > .container > .columns .cards .card .card-body .title a {
   color: #aaa;
@@ -774,6 +779,9 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .cards .card .card-body .article-meta .date {
   color: #c8c8c8;
+}
+#content > .container > .columns .cards .card .card-body .card-text a {
+  color: #f19a57;
 }
 #content > .container > .columns .cards .card .cards-related legend {
   color: #c8c8c8;
@@ -785,7 +793,7 @@ fieldset .tanukiButton.isDisabled:hover {
   background-color: transparent;
 }
 #content > .container > .columns .cards .ad {
-  border-top: 1px solid #3b3b3b;
+  border-top-color: #101013;
 }
 #content > .container > .columns .cards .ad iframe {
   border-radius: 0.6rem;
