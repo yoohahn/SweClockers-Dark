@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.1924
+@version		20.320.2145
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -382,6 +382,11 @@ fieldset .tanukiButton.isDisabled:hover {
   opacity: 1;
 }
 .bbcode .bbImage a img {
+  box-shadow: 0 0 0 1px #101013;
+  -moz-box-shadow: 0 0 0 1px #101013;
+  -ms-box-shadow: 0 0 0 1px #101013;
+  -o-box-shadow: 0 0 0 1px #101013;
+  -webkit-box-shadow: 0 0 0 1px #101013;
   border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
@@ -396,33 +401,56 @@ fieldset .tanukiButton.isDisabled:hover {
   -webkit-border-radius: 0.6rem;
 }
 .bbcode .bbIns {
-  background-color: #8e78a2;
-  color: #000;
-  border-bottom: 1px dotted #473a53;
+  background-color: #1d2e3d;
+  border-bottom: 1px dotted #244663;
+  text-shadow: 1px 1px 2px #000;
 }
 .bbcode .bbMark {
-  background-color: #182e42;
+  background-color: #392e43;
+  text-shadow: 1px 1px 2px #000;
 }
-.bbcode .bbPre {
+.bbcode .bbPre.showFrame {
   background-color: #161617;
   border-color: #101013;
+  border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
 }
-.bbcode .bbPre ::-webkit-scrollbar {
+.bbcode .bbPre.showFrame ::-webkit-scrollbar {
   width: auto;
   height: auto;
 }
-.bbcode .bbPre ::-webkit-scrollbar-corner {
+.bbcode .bbPre.showFrame ::-webkit-scrollbar-corner {
   background: #161617;
 }
-.bbcode .bbPre ::-webkit-scrollbar-thumb {
+.bbcode .bbPre.showFrame ::-webkit-scrollbar-thumb {
   background: #2a2a2a;
   border-top: 4px solid #161617 !important;
   border-bottom: 4px solid #161617 !important;
   border-left-color: #161617 !important;
   border-right-color: #161617 !important;
 }
-.bbcode .bbPre ::-webkit-scrollbar-track {
+.bbcode .bbPre.showFrame ::-webkit-scrollbar-track {
   background: #161617;
+}
+.bbcode .bbVar,
+.bbcode .bbKbd,
+.bbcode .bbSamp,
+.bbcode .bbCmd {
+  background-color: #222;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 0 0 0 1px #222, 0 0 0 2px #393939;
+  -moz-box-shadow: 0 0 0 1px #222, 0 0 0 2px #393939;
+  -ms-box-shadow: 0 0 0 1px #222, 0 0 0 2px #393939;
+  -o-box-shadow: 0 0 0 1px #222, 0 0 0 2px #393939;
+  -webkit-box-shadow: 0 0 0 1px #222, 0 0 0 2px #393939;
+  color: #c8c8c8;
 }
 .bbcode .bbPoll .inner {
   background-color: #161617;
@@ -470,6 +498,11 @@ fieldset .tanukiButton.isDisabled:hover {
 .bbcode .bbSpoiler .spoilerFrame {
   background-color: #161617;
   border-color: #101013;
+  border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
 }
 .bbcode .bbTable {
   background-color: #161617 !important;
