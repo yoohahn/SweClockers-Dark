@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.2207
+@version		20.320.2213
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -950,6 +950,12 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .list-actions .list-search input {
   background-color: #1d1d1f;
+}
+#content > .container > .columns .list-actions .list-search input:focus {
+  border-color: #101013;
+}
+#content > .container > .columns .list-actions .list-search input:focus::placeholder {
+  color: #444;
 }
 #content > .container > .columns .list-actions select {
   background-color: #1d1d1f;
