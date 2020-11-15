@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.1155
+@version		20.320.1202
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -906,8 +906,10 @@
 									background-color var-highlight
 							&:first-child svg
 								fill var-text-2
-							&:last-child svg
-								fill var-warning
+							&:last-child
+								a:not(.pm-link)
+									svg
+										fill var-warning
 					.bg-white
 						background-color var-on-background-2 !important
 						box-shadow var-box-shadow-inset

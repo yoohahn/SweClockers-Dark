@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.320.1155
+@version		20.320.1202
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -1001,7 +1001,7 @@ fieldset .tanukiButton.isDisabled:hover {
 #content > .container > .columns .profileHeader .ph-links li:first-child svg {
   fill: #aaa;
 }
-#content > .container > .columns .profileHeader .ph-links li:last-child svg {
+#content > .container > .columns .profileHeader .ph-links li:last-child a:not(.pm-link) svg {
   fill: #ee4757;
 }
 #content > .container > .columns .profileHeader .bg-white {
