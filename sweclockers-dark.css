@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.330.643
+@version		20.330.654
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -67,6 +67,40 @@ img,
   -ms-filter: invert(85%);
   -o-filter: invert(85%);
   -webkit-filter: invert(85%);
+}
+.tanukiCombobox .tcbTriggerFrame {
+  background-color: transparent;
+  border-color: transparent;
+}
+.tanukiCombobox .tcbTriggerFrame input {
+  box-shadow: inset 0 0 0 1px #101013;
+  -moz-box-shadow: inset 0 0 0 1px #101013;
+  -ms-box-shadow: inset 0 0 0 1px #101013;
+  -o-box-shadow: inset 0 0 0 1px #101013;
+  -webkit-box-shadow: inset 0 0 0 1px #101013;
+}
+.tanukiCombobox .tcbTriggerFrame input:focus {
+  box-shadow: inset 0 0 0 1px #3b3b3b;
+  -moz-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -ms-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -o-box-shadow: inset 0 0 0 1px #3b3b3b;
+  -webkit-box-shadow: inset 0 0 0 1px #3b3b3b;
+}
+.tanukiCombobox .tcbSelectedItem {
+  background-color: #161617;
+  border-color: #3b3b3b;
+  border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+}
+.tanukiCombobox .tcbSelectedItem:hover {
+  background-color: #2a2a2d;
+}
+.tanukiCombobox .tcbPanel {
+  background-color: #161617;
+  border-color: #101013;
 }
 select {
   background-color: #161617;
