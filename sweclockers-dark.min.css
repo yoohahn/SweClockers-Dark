@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.324.208
+@version		20.330.643
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -1121,6 +1121,9 @@ fieldset .tanukiButton.isDisabled:hover {
 #content > .container > .columns .tipsportal .tips-row:hover .col-wrapper {
   background-color: #2a2a2d;
 }
+#content > .container > .columns .tipsportal .tips-title {
+  color: #c8c8c8;
+}
 #content > .container > .columns .tipsportal .tips .col-wrapper:hover {
   opacity: 1;
 }
@@ -1157,6 +1160,61 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .tipsportal .tips .num-comments a:hover {
   text-decoration: none;
+}
+#content > .container > .columns .tipsportal .vendor-header .vendor-name {
+  color: #c8c8c8;
+}
+#content > .container > .columns .tipsportal .vendor-header .ad-info {
+  color: #aaa;
+}
+#content > .container > .columns .tipsportal .vendor-products {
+  background-color: #161617;
+  border-color: #101013;
+}
+#content > .container > .columns .tipsportal .vendor-products .product {
+  border-color: #101013;
+}
+#content > .container > .columns .tipsportal .vendor-products .product-header .product-price-offer {
+  color: #c8c8c8;
+}
+#content > .container > .columns .tipsportal .vendor-products .product-header .product-price-regular {
+  color: #aaa;
+}
+#content > .container > .columns .tipsportal .vendor-products .product-header .product-price-savings {
+  background-color: #c07b45;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+#content > .container > .columns .tipsportal .vendor-products .product-footer {
+  background-color: #1d1d1f;
+}
+#content > .container > .columns .tipsportal .vendor-guides h2 {
+  color: #c8c8c8;
+}
+#content > .container > .columns .tipsportal .vendor-guides p {
+  color: #aaa;
+}
+#content > .container > .columns .tipsportal .vendor-guides .guide .icon img {
+  filter: sepia(0) saturate(0.29) brightness(67%) contrast(184%) hue-rotate(179deg) invert(8%) !important;
+  -moz-filter: sepia(0) saturate(0.29) brightness(67%) contrast(184%) hue-rotate(179deg) invert(8%) !important;
+  -ms-filter: sepia(0) saturate(0.29) brightness(67%) contrast(184%) hue-rotate(179deg) invert(8%) !important;
+  -o-filter: sepia(0) saturate(0.29) brightness(67%) contrast(184%) hue-rotate(179deg) invert(8%) !important;
+  -webkit-filter: sepia(0) saturate(0.29) brightness(67%) contrast(184%) hue-rotate(179deg) invert(8%) !important;
+}
+#content > .container > .columns .tipsportal .vendor-guides .guide .icon img:hover {
+  opacity: 0.8;
+}
+#content > .container > .columns .tipsportal .vendor-guides .guide span {
+  color: #aaa;
+}
+#content > .container > .columns .tipsportal #guide-wrapper {
+  background-color: #1d1d1f;
+  border-color: #101013;
+  border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
 }
 #content > .container > .columns #editor .imageForm button {
   background-color: #161617;
