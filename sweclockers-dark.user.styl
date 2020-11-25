@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.330.654
+@version		20.330.1159
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -917,16 +917,9 @@
 							border-radius var-border-radius
 							background-color var-highlight
 				.pages
-					.first-page,
-					.prev-page,
-					.next-page,
-					.last-page,
-					.first-unread
-						fill var-text-2 !important
-						&.is-disabled
-							fill darken(var-text-2, 50%) !important
 					> a
 						color var-text-2
+						fill var-text-2 !important
 						&:hover
 							background-color var-highlight
 							opacity 1
@@ -934,6 +927,9 @@
 							background-color var-highlight
 							border-color transparent
 							color var-theme
+					> span
+						&.is-disabled
+							fill darken(var-text-2, 50%) !important
 				.profileHeader
 					.avatar img
 						border-radius var-border-radius

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.330.654
+@version		20.330.1159
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -1038,22 +1038,9 @@ fieldset .tanukiButton.isDisabled:hover {
   -webkit-border-radius: 0.6rem;
   background-color: #2a2a2d;
 }
-#content > .container > .columns .pages .first-page,
-#content > .container > .columns .pages .prev-page,
-#content > .container > .columns .pages .next-page,
-#content > .container > .columns .pages .last-page,
-#content > .container > .columns .pages .first-unread {
-  fill: #aaa !important;
-}
-#content > .container > .columns .pages .first-page.is-disabled,
-#content > .container > .columns .pages .prev-page.is-disabled,
-#content > .container > .columns .pages .next-page.is-disabled,
-#content > .container > .columns .pages .last-page.is-disabled,
-#content > .container > .columns .pages .first-unread.is-disabled {
-  fill: #555 !important;
-}
 #content > .container > .columns .pages > a {
   color: #aaa;
+  fill: #aaa !important;
 }
 #content > .container > .columns .pages > a:hover {
   background-color: #2a2a2d;
@@ -1063,6 +1050,9 @@ fieldset .tanukiButton.isDisabled:hover {
   background-color: #2a2a2d;
   border-color: transparent;
   color: #f19a57;
+}
+#content > .container > .columns .pages > span.is-disabled {
+  fill: #555 !important;
 }
 #content > .container > .columns .profileHeader .avatar img {
   border-radius: 0.6rem;
