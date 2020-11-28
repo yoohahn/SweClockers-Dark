@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.333.1210
+@version		20.333.1916
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -1231,6 +1231,9 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .tipsportal .vendor-products .product-footer {
   background-color: #1d1d1f;
+}
+#content > .container > .columns .tipsportal .vendor-products .product-footer .product-descr {
+  color: #aaa;
 }
 #content > .container > .columns .tipsportal .vendor-guides h2 {
   color: #c8c8c8;
