@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.333.1916
+@version		20.340.2042
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -431,11 +431,6 @@ fieldset .tanukiButton.isDisabled:hover {
   opacity: 1;
 }
 .bbcode .bbImage a img {
-  box-shadow: 0 0 0 1px #101013;
-  -moz-box-shadow: 0 0 0 1px #101013;
-  -ms-box-shadow: 0 0 0 1px #101013;
-  -o-box-shadow: 0 0 0 1px #101013;
-  -webkit-box-shadow: 0 0 0 1px #101013;
   border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
@@ -785,6 +780,14 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .content-head #searchForm .search-query input::placeholder {
   color: #aaa !important;
+}
+#content > .container > .columns .article-body .article-bbcode .bbcode > .bbImage.alignRight a img,
+#content > .container > .columns .article-body .article-bbcode .expanderContent > .bbImage.alignRight a img {
+  filter: invert(85%);
+  -moz-filter: invert(85%);
+  -ms-filter: invert(85%);
+  -o-filter: invert(85%);
+  -webkit-filter: invert(85%);
 }
 #content > .container > .columns .article-meta .category {
   color: #f19a57;
