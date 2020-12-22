@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.340.2042
+@version		20.357.1647
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -768,6 +768,9 @@ fieldset .tanukiButton.isDisabled:hover {
 #content > .container > .columns {
   background-color: transparent !important;
 }
+#content > .container > .columns .content-background {
+  background-color: transparent;
+}
 #content > .container > .columns .content-head h1 {
   color: #aaa;
 }
@@ -907,103 +910,103 @@ fieldset .tanukiButton.isDisabled:hover {
   -o-border-radius: 0.6rem;
   -webkit-border-radius: 0.6rem;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-header {
+#content > .container > .columns .forum-posts .forum-post .forum-post-header {
   background-color: #161617;
   color: #c8c8c8;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body {
   background-color: #1d1d1f;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side {
   background-color: #1a1a1c;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .person .title {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .person .title {
   color: #aaa;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .avatar {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .avatar {
   border-radius: 0.6rem !important;
   -moz-border-radius: 0.6rem !important;
   -ms-border-radius: 0.6rem !important;
   -o-border-radius: 0.6rem !important;
   -webkit-border-radius: 0.6rem !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .meta dt {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .meta dt {
   color: #888;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .meta dd {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .meta dd {
   color: #aaa;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .details .activity.online {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .details .activity.online {
   color: #f19a57;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.side.profile .details .activity.offline {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.side.profile .details .activity.offline {
   color: #555;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.like:hover svg.icon {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.like:hover svg.icon {
   fill: #f19a57 !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.like.is-liked .icon {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.like.is-liked .icon {
   fill: #aaa !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.like.is-liked .score {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.like.is-liked .score {
   color: #f19a57 !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.is-disabled {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.is-disabled {
   background-color: #181819 !important;
   pointer-events: all !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.is-disabled .icon {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.is-disabled .icon {
   fill: #333 !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.is-disabled:hover {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.is-disabled:hover {
   cursor: not-allowed !important;
 }
-#content > .container > .columns .forumPosts .forum-post .forum-post-body .col.controls .button.report:hover svg {
+#content > .container > .columns .forum-posts .forum-post .forum-post-body .col.controls .button.report:hover svg {
   fill: #ee4757;
 }
-#content > .container > .columns .forumPosts .forum-post .button {
+#content > .container > .columns .forum-posts .forum-post .button {
   background-color: #161617;
   color: #c8c8c8;
 }
-#content > .container > .columns .forumPosts .forum-post .button:hover {
+#content > .container > .columns .forum-posts .forum-post .button:hover {
   background-color: #2a2a2d;
 }
-#content > .container > .columns .forumPosts .forum-post .button.like.is-liked .score {
+#content > .container > .columns .forum-posts .forum-post .button.like.is-liked .score {
   color: #aaa;
 }
-#content > .container > .columns .forumPosts .forum-post .button.like.is-liked .icon {
+#content > .container > .columns .forum-posts .forum-post .button.like.is-liked .icon {
   fill: #f19a57 !important;
 }
-#content > .container > .columns .forumPosts .forum-post .button.like:not(.is-liked) .score {
+#content > .container > .columns .forum-posts .forum-post .button.like:not(.is-liked) .score {
   color: #aaa;
 }
-#content > .container > .columns .forumPosts .forum-post .button.like:not(.is-liked) .icon {
+#content > .container > .columns .forum-posts .forum-post .button.like:not(.is-liked) .icon {
   fill: #aaa !important;
 }
-#content > .container > .columns .forumPosts .forum-post .button.is-disabled {
+#content > .container > .columns .forum-posts .forum-post .button.is-disabled {
   background-color: #181819 !important;
   pointer-events: all !important;
 }
-#content > .container > .columns .forumPosts .forum-post .button.is-disabled .icon {
+#content > .container > .columns .forum-posts .forum-post .button.is-disabled .icon {
   fill: #333 !important;
 }
-#content > .container > .columns .forumPosts .forum-post .button.is-disabled:hover {
+#content > .container > .columns .forum-posts .forum-post .button.is-disabled:hover {
   cursor: not-allowed !important;
 }
-#content > .container > .columns .forumPosts .forum-post.is-linked .forum-post-header,
-#content > .container > .columns .forumPosts .forum-post.is-linked .forum-post-body {
+#content > .container > .columns .forum-posts .forum-post.is-linked .forum-post-header,
+#content > .container > .columns .forum-posts .forum-post.is-linked .forum-post-body {
   border-color: #3b3b3b;
 }
-#content > .container > .columns .forumPosts .forum-post.is-author .forum-post-header,
-#content > .container > .columns .forumPosts .forum-post.is-author .forum-post-body {
+#content > .container > .columns .forum-posts .forum-post.is-author .forum-post-header,
+#content > .container > .columns .forum-posts .forum-post.is-author .forum-post-body {
   border-left: 2px solid #f19a57;
 }
-#content > .container > .columns .forumPosts .forum-post.isReader:not(.is-author) .forum-post-header,
-#content > .container > .columns .forumPosts .forum-post.isReader:not(.is-author) .forum-post-body {
+#content > .container > .columns .forum-posts .forum-post.isReader:not(.is-author) .forum-post-header,
+#content > .container > .columns .forum-posts .forum-post.isReader:not(.is-author) .forum-post-body {
   border-left-color: #305d84;
 }
-#content > .container > .columns .forumPosts .forum-post.is-author.isReader .forum-post-header,
-#content > .container > .columns .forumPosts .forum-post.is-author.isReader .forum-post-body {
+#content > .container > .columns .forum-posts .forum-post.is-author.isReader .forum-post-header,
+#content > .container > .columns .forum-posts .forum-post.is-author.isReader .forum-post-body {
   border-left-color: #305d84;
 }
 #content > .container > .columns .list-actions .list-search input {
@@ -1018,27 +1021,27 @@ fieldset .tanukiButton.isDisabled:hover {
 #content > .container > .columns .list-actions select {
   background-color: #1d1d1f;
 }
-#content > .container > .columns .quickReply {
+#content > .container > .columns .quick-reply {
   box-shadow: inset 0 0 0 1px #101013;
   -moz-box-shadow: inset 0 0 0 1px #101013;
   -ms-box-shadow: inset 0 0 0 1px #101013;
   -o-box-shadow: inset 0 0 0 1px #101013;
   -webkit-box-shadow: inset 0 0 0 1px #101013;
 }
-#content > .container > .columns .quickReply .controls .tanukiButton {
+#content > .container > .columns .quick-reply .controls .tanukiButton {
   background-color: #161617;
 }
-#content > .container > .columns .quickReply .controls .tanukiButton:hover {
+#content > .container > .columns .quick-reply .controls .tanukiButton:hover {
   background-color: #2a2a2d;
 }
-#content > .container > .columns .quickReply .controls .tanukiButton.isDisabled {
+#content > .container > .columns .quick-reply .controls .tanukiButton.isDisabled {
   background-color: #181819 !important;
   pointer-events: all !important;
 }
-#content > .container > .columns .quickReply .controls .tanukiButton.isDisabled .icon {
+#content > .container > .columns .quick-reply .controls .tanukiButton.isDisabled .icon {
   fill: #333 !important;
 }
-#content > .container > .columns .quickReply .controls .tanukiButton.isDisabled:hover {
+#content > .container > .columns .quick-reply .controls .tanukiButton.isDisabled:hover {
   cursor: not-allowed !important;
 }
 #content > .container > .columns .comments-bubble .cb-top {

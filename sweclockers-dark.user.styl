@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.340.2042
+@version		20.357.1647
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -706,6 +706,8 @@
 		> .container
 			> .columns
 				background-color transparent !important
+				.content-background
+					background-color transparent
 				.content-head
 					h1
 						color var-text-2
@@ -807,7 +809,7 @@
 						border-top-color var-border-color
 						iframe
 							border-radius var-border-radius
-				.forumPosts
+				.forum-posts
 					.forum-post
 						.forum-post-header
 							background-color var-on-background-2
@@ -905,7 +907,7 @@
 									color darken(var-text-2, 60%)
 					select
 						background-color var-on-background-1
-				.quickReply
+				.quick-reply
 					box-shadow var-box-shadow-inset
 					.controls
 						.tanukiButton
