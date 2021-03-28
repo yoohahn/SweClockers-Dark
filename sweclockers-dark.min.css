@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		20.357.1647
+@version		21.87.1845
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -1020,6 +1020,7 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .list-actions select {
   background-color: #1d1d1f;
+  color: #aaa;
 }
 #content > .container > .columns .quick-reply {
   box-shadow: inset 0 0 0 1px #101013;
