@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		21.120.2023
+@version		21.290.2348
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -854,6 +854,13 @@ fieldset .tanukiButton.isDisabled:hover {
 #content > .container > .columns .carousel .section .slide .inner .front a {
   opacity: 1;
 }
+#content > .container > .columns .carousel .border-radius-none {
+  border-radius: 0.6rem !important;
+  -moz-border-radius: 0.6rem !important;
+  -ms-border-radius: 0.6rem !important;
+  -o-border-radius: 0.6rem !important;
+  -webkit-border-radius: 0.6rem !important;
+}
 #content > .container > .columns .cards {
   box-shadow: inset 0 0 0 1px #101013;
   -moz-box-shadow: inset 0 0 0 1px #101013;
@@ -1447,6 +1454,46 @@ fieldset .tanukiButton.isDisabled:hover {
 }
 #content > .container > .columns .table.classifieds .body .row .cell.classifieds-body .classifieds-meta .color-black:nth-child(2) {
   color: #f19a57 !important;
+}
+#content > .container > .columns .market-box {
+  background-color: #1d1d1f;
+}
+#content > .container > .columns .market-box .button {
+  background-color: #242426;
+  color: #c8c8c8;
+}
+#content > .container > .columns .market-box .button.market-button {
+  fill: #c8c8c8;
+}
+#content > .container > .columns .market-box .button.market-button:hover {
+  background-color: #2a2a2d;
+}
+#content > .container > .columns .market-box .button.report {
+  fill: #c8c8c8;
+}
+#content > .container > .columns .market-box .button.report:hover svg {
+  fill: #ee4757;
+}
+#content > .container > .columns .market-edit-image__container,
+#content > .container > .columns .market-edit-upload,
+#content > .container > .columns .checkboxItem label {
+  background-color: #161617;
+  border-color: #101013;
+}
+#content > .container > .columns .market-edit-image__container .tcLabel,
+#content > .container > .columns .market-edit-upload .tcLabel,
+#content > .container > .columns .checkboxItem label .tcLabel {
+  color: #c8c8c8;
+  background-color: #242426;
+}
+#content > .container > .columns .market-edit-image__container .tcLabel:hover,
+#content > .container > .columns .market-edit-upload .tcLabel:hover,
+#content > .container > .columns .checkboxItem label .tcLabel:hover {
+  background-color: #2a2a2d;
+}
+#content > .container > .columns .checkboxItem label:hover,
+#content > .container > .columns .market-edit-image__container:hover {
+  background-color: #2a2a2d;
 }
 .lightbox .lbSlideContents {
   background-color: #000 !important;
