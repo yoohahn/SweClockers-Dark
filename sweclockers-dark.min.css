@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			SweClockers Dark
 @description	A modern dark theme for SweClockers
-@version		21.290.2348
+@version		21.360.1224
 @license		MPL-2.0
 @author			Soitora <simon.mattila@protonmail.com> (https://soitora.com)
 @namespace		https://github.com/Soitora
@@ -426,6 +426,23 @@ fieldset .tanukiButton.isDisabled:hover {
   -ms-filter: invert(85%) !important;
   -o-filter: invert(85%) !important;
   -webkit-filter: invert(85%) !important;
+}
+.bbcode .bbColor[style='color: #c15200;'],
+.bbcode .bbColor[style='color: #c45e0b;'] {
+  color: #f19a57 !important;
+}
+.bbcode .bbColor[style='color: #5c5c68;'] {
+  color: #aaaab5 !important;
+}
+.bbcode .bbColor[style='color: #d00;'],
+.bbcode .bbColor[style='color: red;'] {
+  color: #ff4949 !important;
+}
+.bbcode .bbColor[style='color: green;'] {
+  color: #3fff62 !important;
+}
+.bbcode .bbColor[style='color: blue;'] {
+  color: #3f76ff !important;
 }
 .bbcode .bbImage a:hover {
   opacity: 1;
